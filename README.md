@@ -77,7 +77,7 @@ kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.pas
 ```
 ### Step 9: Clone Repository on server
 ```bash
-git clone <your-repository-url>   
+git clone <repository-url>   
 ```
 
 ### Step 10 : Deploy Backend

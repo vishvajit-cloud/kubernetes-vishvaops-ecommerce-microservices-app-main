@@ -1,0 +1,122 @@
+version: "3.9"
+
+services:
+  backend-service:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    image: vishvajitcloud/vishvaops_store:backend-v1
+
+  main-service:
+    build:
+      context: ./frontend/main
+      dockerfile: Dockerfile
+    image: vishvajitcloud/vishvaops_store:main-v1
+
+  appliances-service:
+    build:
+      context: ./frontend/appliances
+      dockerfile: Dockerfile
+    image: vishvajitcloud/vishvaops_store:appliances-v1
+
+  auto-service:
+    build:
+      context: ./frontend/auto
+      dockerfile: Dockerfile
+    image: vishvajitcloud/vishvaops_store:auto-v1
+
+  beauty-service:
+    build:
+      context: ./frontend/beauty
+      dockerfile: Dockerfile
+    image: vishvajitcloud/vishvaops_store:beauty-v1
+
+  books-service:
+    build:
+      context: ./frontend/books
+      dockerfile: Dockerfile
+    image: vishvajitcloud/vishvaops_store:books-v1
+
+  computers-service:
+    build:
+      context: ./frontend/computers
+      dockerfile: Dockerfile
+    image: vishvajitcloud/vishvaops_store:computers-v1
+
+  earphones-service:
+    build:
+      context: ./frontend/earphones
+      dockerfile: Dockerfile
+    image: vishvajitcloud/vishvaops_store:earphones-v1
+
+  electronics-service:
+    build:
+      context: ./frontend/electronics
+      dockerfile: Dockerfile
+    image: vishvajitcloud/vishvaops_store:electronics-v1
+
+  fashion-service:
+    build:
+      context: ./frontend/fashion
+      dockerfile: Dockerfile
+    image: vishvajitcloud/vishvaops_store:fashion-v1
+
+  food-service:
+    build:
+      context: ./frontend/food
+      dockerfile: Dockerfile
+    image: vishvajitcloud/vishvaops_store:food-v1
+
+  furniture-service:
+    build:
+      context: ./frontend/furniture
+      dockerfile: Dockerfile
+    image: vishvajitcloud/vishvaops_store:furniture-v1
+
+  googlegrocery-service:
+    build:
+      context: ./frontend/googlegrocery
+      dockerfile: Dockerfile
+    image: vishvajitcloud/vishvaops_store:googlegrocery-v1
+
+  googlemusic-service:
+    build:
+      context: ./frontend/googlemusic
+      dockerfile: Dockerfile
+    image: vishvajitcloud/vishvaops_store:googlemusic-v1
+
+  googlepay-service:
+    build:
+      context: ./frontend/googlepay
+      dockerfile: Dockerfile
+    image: vishvajitcloud/vishvaops_store:googlepay-v1
+
+  home-service:
+    build:
+      context: ./frontend/home
+      dockerfile: Dockerfile
+    image: vishvajitcloud/vishvaops_store:home-v1
+
+  mobiles-service:
+    build:
+      context: ./frontend/mobiles
+      dockerfile: Dockerfile
+    image: vishvajitcloud/vishvaops_store:mobiles-v1
+
+  sports-service:
+    build:
+      context: ./frontend/sports
+      dockerfile: Dockerfile
+    image: vishvajitcloud/vishvaops_store:sports-v1
+
+  toys-service:
+    build:
+      context: ./frontend/toys
+      dockerfile: Dockerfile
+    image: vishvajitcloud/vishvaops_store:toys-v1
+
+  two-wheelers-service:
+    build:
+      context: ./frontend/two-wheelers
+      dockerfile: Dockerfile
+    image: vishvajitcloud/vishvaops_store:two-wheelers-v1

@@ -248,7 +248,7 @@ resource "aws_iam_role_policy_attachment" "worker_ebs" {
 
 ############################
 # EKS CLUSTER
-# Changed: name "naresh" -> "vishva"
+# "vishva"
 ############################
 
 resource "aws_eks_cluster" "eks" {
